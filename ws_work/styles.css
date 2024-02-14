@@ -1,0 +1,129 @@
+.register {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 200px auto;
+    
+}
+
+.reg {
+    text-align: center;
+    color: #008080;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register button[type="submit"]:hover {
+    background-color: #005454;
+}
+
+#error-message {
+    color: red;
+}
+
+.login {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 200px auto;
+    display: none;
+}
+
+#login-form {
+    display: block;
+}
+
+.log {
+    text-align: center;
+    color: #008080;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login button[type="submit"]:hover {
+    background-color: #005454;
+}
+
+#error-message {
+    color: red;
+}
+
+button {
+    background-color: #008080; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+
+
+body {
+    font-family: Arial, sans-serif; 
+    color: #333; /
+}
+
+h2 {
+    color: #008080; 
+}
+
+p {
+    color: #666; 
+}
+
+
+input{
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #008080; 
+}

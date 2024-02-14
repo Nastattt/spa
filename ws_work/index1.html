@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Авторизация и Регистрация</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<header id="page-header" style="display: none;">
+    <nav class="nav">
+        <button onclick="showContent('user-todos')">Показать User Todos</button>
+        <button onclick="showContent('user-albums')">Показать Альбомы пользователя</button>
+        <button onclick="showContent('user-images')">Показать Изображения</button>
+        <button onclick="showContent('user-posts')">Показать Посты</button>
+    </nav>
+</header>
+<body>
+
+<div class="login">
+<form id="login-form" >
+    <h2 class="log">Вход в аккаунт</h2>
+    <input type="text" id="login-username" placeholder="Имя пользователя" required><br>
+    <input type="password" id="login-password" placeholder="Пароль" required><br>
+    <button type="submit">Войти</button>
+</form>
+</div>
+<div class="register">
+<form id="registration-form">
+    <h2 class="reg">Регистрация</h2>
+    <input type="text" id="reg-username" placeholder="Имя пользователя" required><br>
+    <input type="password" id="reg-password" placeholder="Пароль" required><br>
+    <button type="submit">Зарегистрироваться</button>
+</form>
+</div>
+
+<div id="error-message"></div>
+
+<div id="app">
+    <div id="user-todos" style="display: none;">
+        <h2>User Todos</h2>
+        <ul id="todos-list"></ul>
+    </div>
+
+    <div id="user-albums" style="display: none;">
+        <h2>Альбомы пользователя</h2>
+        <ul id="albums-list"></ul>
+    </div>
+
+    <div id="user-images" style="display: none;">
+        <h2>Изображения</h2>
+        <div id="images-container"></div>
+    </div>
+
+    <div id="user-posts" style="display: none;">
+        <h2>Посты</h2>
+        <ul id="posts-list"></ul>
+    </div>
+</div>
+
+<div class="wrap">
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
